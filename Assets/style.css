@@ -81,9 +81,29 @@
   header {
     width: 96%;
     margin: 0 auto;
-    padding: 2.5rem;
-    text-align: center;
+    padding: 0;
+    text-align: left;
   }
+
+  /* Sets the padding, margin, float, font-family, and font-size for the navigation element within the header element */
+header nav {
+  padding-top: 15px;
+  margin-right: 0px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+/* Sets the list-style-type for the undefined list element within the navigation element all within the header element. */
+header nav ul {
+  list-style-type: none;
+}
+
+/* Sets the display for the list elements within the undefined list element within the navigation element all within the header element. */
+header nav ul li {
+  display: inline-block;
+  margin-left: px;
+}
   
   header h1.page-title {
     padding: 1rem 1.2rem;
