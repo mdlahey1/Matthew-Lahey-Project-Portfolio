@@ -2,90 +2,94 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matthew Lahey Professional Portfolio</title>
-  <link rel="stylesheet" href="./Assets/CSS/reset.css" />
-  <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <Title>Matthew Lahey Portfolio</Title>
+
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link rel="stylesheet" href="./Assets/css/effects.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav>
-      <h1>Matthew Lahey</h1>
-        <ul class="navbar">
-            <li><a href="#aboutmelink">About Me</a></li>
-            <li><a href="#projectslink">My Applications</a></li>
-            <li><a href="#contactmelink">Contact Me</a></li>
-        </ul>
-    </nav>
-  <!-- Body -->
-  <main>
 
-    <section class=mybio id="aboutmelink">
-      <img
-        src="./Assets/Images/aboutme_IMG_2411.jpg"
-        alt="Matthew Lahey profile picture"
-        class="aboutme-img"
-      />
-      <section class="aboutme section">
-        <h2 class="aboutme-title">About Me</h2>
-        <p class="aboutme-text">
-          After 6 years of working within the Hedge Fund Admin Service industry at Northern Trust out of Chicago, I decided to enroll in the UNC Chapel Hill Full Stack Coding Bootcamp. I'm hoping to find a full-time development position upon completion of the bootcamp. Please refer to my work section for examples of my existing applications and use the contact me section to get in touch!
-        </p>
-      </section>
-    </section>
+    <header>
+        <h1>Matthew Lahey</h1>
+    </header>
 
-    <section class="projects" id="projectslink">
-      <h2 class="projects-title">My Applications</h2>
-      
-      <section class="projects-container">
-        <section class="project-container project-card">
-          <a href="https://mdlahey1.github.io/prework-study-guide/" class="project-img">  
-            <img
-              src="./Assets/Images/preworkstudyguideproject.png"
-              alt="HTML, GIT, JavaScript, Git Study Guide"
-              class="project-img"
-            />
-          </a>  
-          <h3 class="project-title">HTML, GIT, JavaScript, and Git Study Guide</h3>
-        </section>
+    <!-- Projects Section -->
+    <div class="container">
+        <div class="main">
 
-        <section class="project-container project-card">
-          <a href="https://mdlahey1.github.io/module2-challenge-refactor/" class="project-img">  
-            <img
-              src="./Assets/Images/htmlcssproject.png"
-              alt="HTML & CSS Semantic Lanaguage Application"
-              class="project-img"
-            />
-          </a>  
-          <h3 class="project-title">HTML & CSS Semantic Language Application</h3>
-        </section>
+            <div class="view view-animation">
+                <img src="./Assets/Images/htmlcssproject.png" alt="Refactoring" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Horiseon</h2>
+                    <p>HTML/CSS/Refactoring</p>
+                    <a href="https://mdlahey1.github.io/matthew-lahey-password-generator/" target="_blank">View Site</a>
+                </div>
+            </div>
 
-        <section class="project-container project-card">
-            <img
-              src="./Assets/Images/passwordmanagerproject.png"
-              alt="Password Manager Application"
-              class="project-img"
-            />
-          <h3 class="project-title">Password Manager Application</h3>
-        </section>
+            <div class="view view-animation">
+                <img src="./Assets/Images/passwordGenerator.png" alt="Password Generator" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Password Generator</h2>
+                    <p>JavaScript</p>
+                    <a href="https://mdlahey1.github.io/matthew-lahey-password-generator/" target="_blank">View Site</a>
+                </div>
+            </div>
 
-      </section>
-    </section>
+            <div class="view view-animation">
+                <img src="./Assets/Images/codingQuiz.png" alt="Coding Quiz" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>Coding Quiz</h2>
+                    <p>Dynamic HTML/CSS with JavaScript</p>
+                    <a href="https://benjamineidum.github.io/run-buddy/" target="_blank">View Site</a>
+                </div>
+            </div>
 
-    <section id="contactmelink">
-      <h2>Contact Me</h2>
-      <section class="contactme">
+            <div class="view view-animation">
+                <img src="./Assets/Images/flimDex.png" alt="FilmDex" />
+                <div class="mask mask-1"></div>
+                <div class="mask mask-2"></div>
+                <div class="content">
+                    <h2>FilmDex Movie Recommendations</h2>
+                    <p>API/JavaScript/HTML/CSS</p>
+                    <a href="https://mdlahey1.github.io/Project1-Front-End-App-Group6/" target="_blank">View Site</a>
+                </div>
+            </div>
 
-      </section>
-    </section>
+        </div>
+    </div>
 
-  </main>
 
-  <footer>
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div>
+            (312)-237-6697
+        </div>
+        <div>
+            <a href="mailto:mdlahey@outlook.com">mdlahey@outlook.com</a>
+        </div>
+        <div>
+            <a href="https://github.com/mdlahey1" target="_blank">GitHub</a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/matthew-lahey-6662945a/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
 
-  </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
 </body>
 
