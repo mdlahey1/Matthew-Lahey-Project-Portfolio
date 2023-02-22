@@ -4,7 +4,7 @@
 Portfolio of development projects created by Matthew Lahey
 
 ## Screenshot
-./Assets/Images/screenshot.png
+![Portfolio Screenshot](./Assets/Images/screenshot.png)
 
 ## Deployed Site
 https://mdlahey1.github.io/Matthew-Lahey-Project-Portfolio/
